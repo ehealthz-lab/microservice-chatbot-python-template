@@ -24,7 +24,7 @@ requirements.txt: list of the requirements for the Python environment.
 
 botscripts: contains the AIML file.
 
-certificates: contains used in the microservice.
+certificates: contains the certificates used in the microservice.
 
 credentials: contains the code necessary for the authentication.
 
