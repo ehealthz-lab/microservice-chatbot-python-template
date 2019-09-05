@@ -4,10 +4,10 @@ Template to add new microservices in the microservice chatbot architecture in Py
 
 Usage:
 
-- The interaction should be added in botscripts/basic_chat.aiml following the AIML format.
-- In the resources/operation_kernel.py file shoud be added the tasks performed by this microservice.
-- The certificate folder, the credentials/security.conf file and the config.conf file should be configured accordingly.
-- The Docker container should be created to add the new microservice into the architecture.
+- The interaction should be declared in botscripts/basic_chat.aiml following the AIML format.
+- The tasks performed by this microservice architecture should be defined in resources/operation_kernel.py file.
+- The certificates in the certificate folder, the credentials/security.conf file and the config.conf file should be configured as per the requirements.
+- The Docker container should be built to add the new microservices into the architecture.
 
 Example Docker usage:
 
@@ -35,3 +35,5 @@ registrationAPIgateway: contains the registration and deregistration in the API 
 resources: contains the tasks that this microservice is going to do.
 
 This template works with FHIR DSTU3 server.
+
+For more details please write an email to surya@unizar.es
