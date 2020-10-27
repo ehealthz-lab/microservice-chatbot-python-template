@@ -6,7 +6,7 @@ Werkzeug==0.14.1
 asn1crypto==0.24.0
 cffi==1.11.5
 chardet==3.0.4
-cryptography==2.5
+cryptography==3.2
 idna==2.8
 itsdangerous==1.1.0
 pip==10.0.1
